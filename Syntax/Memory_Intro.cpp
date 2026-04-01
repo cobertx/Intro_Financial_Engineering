@@ -6,7 +6,7 @@ int main()
 	// Create a single object on the heap
 	int n = 1;
 	OptionData* myData = (OptionData*)malloc(n * sizeof(OptionData)); // cast void* to OptionData*
-	(*myData).K = 300.0;
+	(*myData).K = 150.0;
 	(*myData).T = 1.0;
 	(*myData).r = 0.12;
 	(*myData).sig = 0.1;
